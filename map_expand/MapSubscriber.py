@@ -29,8 +29,8 @@ class MapSubscriber(Node):
         )
 
         # increase map area
-        data.info.width *= 10
-        data.info.height *= 10
+        data.info.width *= 20
+        data.info.height *= 20
 
         # adapt number of data entries accordingly
         data.data = [-1] * (data.info.width * data.info.height)
